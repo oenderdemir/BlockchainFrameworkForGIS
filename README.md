@@ -1,1 +1,1 @@
-# PHD
+Within the scope of this project, there is a framework for the integration of GIS projects with blockchain and some examples of usage areas for smart cities.
