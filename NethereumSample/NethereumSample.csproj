@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.HdWallet" Version="4.14.0" />
+    <PackageReference Include="Nethereum.KeyStore" Version="4.14.0" />
+    <PackageReference Include="Nethereum.Web3" Version="4.14.0" />
+    <PackageReference Include="Rijndael256.Core" Version="3.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wallets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-21-27-331.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-23-58-697.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-24-26-334.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-25-17-958.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-26-33-164.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-27-16-6.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-28-41-106.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-30-11-467.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-31-23-427.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-32-42-574.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-35-3-417.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-35-42-432.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-37-42-229.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-39-20-763.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-41-44-916.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-43-34-838.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-44-23-148.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-45-17-731.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-46-3-731.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-23-1-7-8-867.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-25-1-39-27-929.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="wallets\EthereumWallet_2023-3-25-2-10-11-93.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
